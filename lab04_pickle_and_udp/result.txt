@@ -1,0 +1,17 @@
+===вывод сервера pickle===
+pickle server listening
+client connected ('127.0.0.1', 19591)
+received object: {'name': 'alice', 'n': 42}
+
+===вывод клиента пикл===
+echo {'name': 'alice', 'n': 42}
+
+
+
+===вывод сервера udp==
+udp server listening
+received hello udp from ('127.0.0.1', 54575)
+
+===вывод клиента udp===
+echo hello udp
+

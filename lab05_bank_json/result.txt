@@ -1,0 +1,18 @@
+===вывод сервера===
+bank server listening on 9092
+client connected ('127.0.0.1', 5362)
+client connected ('127.0.0.1', 5423)
+client connected ('127.0.0.1', 5465)
+
+===вывод клиента===
+PS D:\uni\SETI\socket\lab05_bank_json> py client.py
+Action (balance / deposit / withdraw): balance
+Balance: 1000
+PS D:\uni\SETI\socket\lab05_bank_json> py client.py
+Action (balance / deposit / withdraw): deposit
+Amount: 20000
+Balance: 21000
+PS D:\uni\SETI\socket\lab05_bank_json> py client.py
+Action (balance / deposit / withdraw): withdraw
+Amount: 34
+Balance: 20966

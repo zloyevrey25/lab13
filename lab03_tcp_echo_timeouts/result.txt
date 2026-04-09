@@ -1,0 +1,13 @@
+===вывод сервера===
+
+server is listening on 9090
+new client ('127.0.0.1', 20027)
+received добрый день
+client left
+no client, listening again
+
+===вывод клиента===
+PS D:\uni\SETI\socket\lab03_tcp_echo_timeouts> py client.py
+message (exit to quit): добрый день
+echo добрый день
+PS D:\uni\SETI\socket\lab03_tcp_echo_timeouts> notepad result.txt

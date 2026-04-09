@@ -1,0 +1,15 @@
+=== терминал сервера ===
+server is listening
+new client accepted ('127.0.0.1', 6232)
+received приветик!
+received всё работает!
+received exit!
+
+
+=== терминал клиента ===
+message (exit to quit): приветик!
+echo приветик!
+message (exit to quit): всё работает!
+echo всё работает!
+message (exit to quit): exit
+echo exit
